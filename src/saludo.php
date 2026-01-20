@@ -22,3 +22,4 @@ class Saludo
         return $this->saludos[$indice];
     }
 }
+
