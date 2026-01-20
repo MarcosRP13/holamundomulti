@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/./src/Saludo.php';
-use App\Saludo;
+use HolaMundoMultiLenguaje\Saludo;
 $saludo = new Saludo();
 $mensaje = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
